@@ -1,17 +1,18 @@
 *{
 	box-sizing: border-box;
-	padding: 0px;
-	
+	padding: 0px;	
 }
+
 h1{
 	text-align:center;
 	color: red;
 	margin-bottom: 10px;
 	font-size: 28px;
+	font-family: "Optima";
 }
+
 section{
 	width: 100%;
-	
 }
 
 div{
@@ -27,7 +28,6 @@ div{
 @media(min-width: 992px){
 	.col-lg-1,c.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9,.col-lg-10,.col-lg-11,.col-lg-12{
 		float:left;
-
 	}
 	.col-lg-1{width: 8.33%;}
 	.col-lg-2{width: 16.66%;}
@@ -67,7 +67,6 @@ div{
 		height:300px;
 	    overflow: auto;
 	}
-
 }
 
 h2{
@@ -79,19 +78,24 @@ h2{
 	margin:0px;
 	margin-bottom: 10px;
 	font-size: 20px;
-
+	font-family: "Rockwell";
 }
+
 p{
 	clear: right;
 	margin:10px;
 	font-size: 16px;
+	font-family: "Segoe UI"
 }
+
 .clr1{
 	background-color: #E24A4A
 }
+
 .clr2{
 	background-color: #C548CE
 }
+
 .clr3{
 	background-color: #EE7E56
 }
